@@ -28,6 +28,9 @@ module.exports = (robot) ->
     
   robot.respond /make (waffles)/i, (res) ->
     res.emote "makes the best waffles you've ever had"
+    
+  robot.hear /pancakes/i, (res) ->
+    res.send 'Flapjacks are my specialty! Blueberry or chocolate chip?'  
 
   #
   # lulz = ['lol', 'rofl', 'lmao']
